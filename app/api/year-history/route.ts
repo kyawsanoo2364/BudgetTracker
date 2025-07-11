@@ -1,6 +1,7 @@
 import prisma from "@/lib/prisma";
 import { currentUser } from "@clerk/nextjs/server";
 import { redirect } from "next/navigation";
+import { NextResponse } from "next/server";
 
 export async function GET(request: Request) {
   const user = await currentUser();
@@ -14,7 +15,7 @@ export async function GET(request: Request) {
   const date = new Date(parseInt(year), 1);
   const data = await getYearHistory(user.id, date);
 
-  return Response.json(data);
+  return NextResponse.json(data);
 }
 
 export type GetYearHistoryResponseType = Awaited<

@@ -1,6 +1,7 @@
 import prisma from "@/lib/prisma";
 import { currentUser } from "@clerk/nextjs/server";
 import { redirect } from "next/navigation";
+import { NextResponse } from "next/server";
 
 export async function GET(request: Request) {
   const user = await currentUser();
@@ -10,7 +11,7 @@ export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
   const type = searchParams.get("type");
   if (!type)
-    return Response.json({ error: "Type is required!" }, { status: 400 });
+    return NextResponse.json({ error: "Type is required!" }, { status: 400 });
 
   try {
     const categories = await prisma.category.findMany({
@@ -20,9 +21,9 @@ export async function GET(request: Request) {
       },
     });
 
-    return Response.json(categories, { status: 200 });
+    return NextResponse.json(categories, { status: 200 });
   } catch (error) {
     console.log(error);
-    return Response.json({ error: "Server Error" }, { status: 500 });
+    return NextResponse.json({ error: "Server Error" }, { status: 500 });
   }
 }

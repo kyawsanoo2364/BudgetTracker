@@ -2,6 +2,7 @@ import prisma from "@/lib/prisma";
 import { currentUser } from "@clerk/nextjs/server";
 import { redirect } from "next/navigation";
 import { DateRangeSchema } from "../overview-transactions/route";
+import { NextResponse } from "next/server";
 
 export const GET = async (request: Request) => {
   const user = await currentUser();
@@ -14,7 +15,7 @@ export const GET = async (request: Request) => {
   const to = searchParams.get("to");
   const queryParams = DateRangeSchema.safeParse({ from, to });
   if (!queryParams.success) {
-    return Response.json({ error: "Bad Request" }, { status: 400 });
+    return NextResponse.json({ error: "Bad Request" }, { status: 400 });
   }
   const data = await getTransactionsData(
     user.id,
@@ -22,7 +23,7 @@ export const GET = async (request: Request) => {
     queryParams.data.to,
   );
 
-  return Response.json(data);
+  return NextResponse.json(data);
 };
 
 export type GetTransactionsDataResponseType = Awaited<

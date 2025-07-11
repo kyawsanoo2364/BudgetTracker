@@ -1,6 +1,7 @@
 import prisma from "@/lib/prisma";
 import { currentUser } from "@clerk/nextjs/server";
 import { redirect } from "next/navigation";
+import { NextResponse } from "next/server";
 
 export const GET = async (request: Request) => {
   const user = await currentUser();
@@ -21,5 +22,5 @@ export const GET = async (request: Request) => {
     },
   });
 
-  return Response.json(monthHistory);
+  return NextResponse.json(monthHistory);
 };

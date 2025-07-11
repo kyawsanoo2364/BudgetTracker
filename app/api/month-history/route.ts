@@ -2,6 +2,7 @@ import prisma from "@/lib/prisma";
 import { currentUser } from "@clerk/nextjs/server";
 import { getDaysInMonth, getMonth } from "date-fns";
 import { redirect } from "next/navigation";
+import { NextResponse } from "next/server";
 
 export async function GET(request: Request) {
   const user = await currentUser();
@@ -15,7 +16,7 @@ export async function GET(request: Request) {
 
   const monthHistory = await getMonthHistory(user.id, date);
 
-  return Response.json(monthHistory);
+  return NextResponse.json(monthHistory);
 }
 
 export type GetMonthHistoryResponseType = Awaited<

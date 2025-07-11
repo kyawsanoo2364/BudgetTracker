@@ -1,6 +1,7 @@
 import prisma from "@/lib/prisma";
 import { currentUser } from "@clerk/nextjs/server";
 import { redirect } from "next/navigation";
+import { NextResponse } from "next/server";
 import z from "zod";
 
 export const DateRangeSchema = z.object({
@@ -26,7 +27,7 @@ export async function GET(request: Request) {
     dateRangeParams.data.to,
   );
 
-  return Response.json(res);
+  return NextResponse.json(res);
 }
 
 export type GetTransactionsResponseType = Awaited<
