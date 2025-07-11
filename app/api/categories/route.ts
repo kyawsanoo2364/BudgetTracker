@@ -9,12 +9,20 @@ export async function GET(request: Request) {
   }
   const { searchParams } = new URL(request.url);
   const type = searchParams.get("type");
-  const categories = await prisma.category.findMany({
-    where: {
-      userId: user.id,
-      type,
-    },
-  });
+  if (!type)
+    return Response.json({ error: "Type is required!" }, { status: 400 });
 
-  return Response.json(categories, { status: 200 });
+  try {
+    const categories = await prisma.category.findMany({
+      where: {
+        userId: user.id,
+        type,
+      },
+    });
+
+    return Response.json(categories, { status: 200 });
+  } catch (error) {
+    console.log(error);
+    return Response.json({ error: "Server Error" }, { status: 500 });
+  }
 }
