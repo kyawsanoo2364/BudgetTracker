@@ -1,0 +1,752 @@
+[
+  {
+    "locale": "en-AW",
+    "currency": "AWG",
+    "label": "Aruban Florin"
+  },
+  {
+    "locale": "en-AF",
+    "currency": "AFN",
+    "label": "Afghan Afghani"
+  },
+  {
+    "locale": "en-AO",
+    "currency": "AOA",
+    "label": "Angolan Kwanza"
+  },
+  {
+    "locale": "en-AI",
+    "currency": "XCD",
+    "label": "East Caribbean Dollar"
+  },
+  {
+    "locale": "en-AX",
+    "currency": "EUR",
+    "label": "Euro"
+  },
+  {
+    "locale": "en-AL",
+    "currency": "ALL",
+    "label": "Albanian Lek"
+  },
+  {
+    "locale": "en-AE",
+    "currency": "AED",
+    "label": "United Arab Emirates Dirham"
+  },
+  {
+    "locale": "en-AR",
+    "currency": "ARS",
+    "label": "Argentine Peso"
+  },
+  {
+    "locale": "en-AM",
+    "currency": "AMD",
+    "label": "Armenian Dram"
+  },
+  {
+    "locale": "en-AS",
+    "currency": "USD",
+    "label": "US Dollar"
+  },
+  {
+    "locale": "en-AU",
+    "currency": "AUD",
+    "label": "Australian Dollar"
+  },
+  {
+    "locale": "en-AZ",
+    "currency": "AZN",
+    "label": "Azerbaijani Manat"
+  },
+  {
+    "locale": "en-BI",
+    "currency": "BIF",
+    "label": "Burundian Franc"
+  },
+  {
+    "locale": "en-BJ",
+    "currency": "XOF",
+    "label": "West African CFA Franc"
+  },
+  {
+    "locale": "en-BD",
+    "currency": "BDT",
+    "label": "Bangladeshi Taka"
+  },
+  {
+    "locale": "en-BG",
+    "currency": "BGN",
+    "label": "Bulgarian Lev"
+  },
+  {
+    "locale": "en-BH",
+    "currency": "BHD",
+    "label": "Bahraini Dinar"
+  },
+  {
+    "locale": "en-BS",
+    "currency": "BSD",
+    "label": "Bahamian Dollar"
+  },
+  {
+    "locale": "en-BA",
+    "currency": "BAM",
+    "label": "Bosnia-Herzegovina Convertible Mark"
+  },
+  {
+    "locale": "en-BY",
+    "currency": "BYN",
+    "label": "Belarusian Ruble"
+  },
+  {
+    "locale": "en-BZ",
+    "currency": "BZD",
+    "label": "Belize Dollar"
+  },
+  {
+    "locale": "en-BM",
+    "currency": "BMD",
+    "label": "Bermudan Dollar"
+  },
+  {
+    "locale": "en-BO",
+    "currency": "BOB",
+    "label": "Bolivian Boliviano"
+  },
+  {
+    "locale": "en-BR",
+    "currency": "BRL",
+    "label": "Brazilian Real"
+  },
+  {
+    "locale": "en-BB",
+    "currency": "BBD",
+    "label": "Barbadian Dollar"
+  },
+  {
+    "locale": "en-BN",
+    "currency": "BND",
+    "label": "Brunei Dollar"
+  },
+  {
+    "locale": "en-BT",
+    "currency": "INR",
+    "label": "Indian Rupee"
+  },
+  {
+    "locale": "en-BV",
+    "currency": "NOK",
+    "label": "Norwegian Krone"
+  },
+  {
+    "locale": "en-BW",
+    "currency": "BWP",
+    "label": "Botswanan Pula"
+  },
+  {
+    "locale": "en-CF",
+    "currency": "XAF",
+    "label": "Central African CFA Franc"
+  },
+  {
+    "locale": "en-CA",
+    "currency": "CAD",
+    "label": "Canadian Dollar"
+  },
+  {
+    "locale": "en-CH",
+    "currency": "CHF",
+    "label": "Swiss Franc"
+  },
+  {
+    "locale": "en-CL",
+    "currency": "CLP",
+    "label": "Chilean Peso"
+  },
+  {
+    "locale": "en-CN",
+    "currency": "CNY",
+    "label": "Chinese Yuan"
+  },
+  {
+    "locale": "en-CD",
+    "currency": "CDF",
+    "label": "Congolese Franc"
+  },
+  {
+    "locale": "en-CK",
+    "currency": "NZD",
+    "label": "New Zealand Dollar"
+  },
+  {
+    "locale": "en-CO",
+    "currency": "COP",
+    "label": "Colombian Peso"
+  },
+  {
+    "locale": "en-KM",
+    "currency": "KMF",
+    "label": "Comorian Franc"
+  },
+  {
+    "locale": "en-CV",
+    "currency": "CVE",
+    "label": "Cape Verdean Escudo"
+  },
+  {
+    "locale": "en-CR",
+    "currency": "CRC",
+    "label": "Costa Rican Col\u00f3n"
+  },
+  {
+    "locale": "en-CU",
+    "currency": "CUP",
+    "label": "Cuban Peso"
+  },
+  {
+    "locale": "en-CW",
+    "currency": "XCG",
+    "label": "Caribbean guilder"
+  },
+  {
+    "locale": "en-KY",
+    "currency": "KYD",
+    "label": "Cayman Islands Dollar"
+  },
+  {
+    "locale": "en-CZ",
+    "currency": "CZK",
+    "label": "Czech Koruna"
+  },
+  {
+    "locale": "en-DJ",
+    "currency": "DJF",
+    "label": "Djiboutian Franc"
+  },
+  {
+    "locale": "en-DK",
+    "currency": "DKK",
+    "label": "Danish Krone"
+  },
+  {
+    "locale": "en-DO",
+    "currency": "DOP",
+    "label": "Dominican Peso"
+  },
+  {
+    "locale": "en-DZ",
+    "currency": "DZD",
+    "label": "Algerian Dinar"
+  },
+  {
+    "locale": "en-EG",
+    "currency": "EGP",
+    "label": "Egyptian Pound"
+  },
+  {
+    "locale": "en-ER",
+    "currency": "ERN",
+    "label": "Eritrean Nakfa"
+  },
+  {
+    "locale": "en-EH",
+    "currency": "MAD",
+    "label": "Moroccan Dirham"
+  },
+  {
+    "locale": "en-ET",
+    "currency": "ETB",
+    "label": "Ethiopian Birr"
+  },
+  {
+    "locale": "en-FJ",
+    "currency": "FJD",
+    "label": "Fijian Dollar"
+  },
+  {
+    "locale": "en-FK",
+    "currency": "FKP",
+    "label": "Falkland Islands Pound"
+  },
+  {
+    "locale": "en-GB",
+    "currency": "GBP",
+    "label": "British Pound"
+  },
+  {
+    "locale": "en-GE",
+    "currency": "GEL",
+    "label": "Georgian Lari"
+  },
+  {
+    "locale": "en-GH",
+    "currency": "GHS",
+    "label": "Ghanaian Cedi"
+  },
+  {
+    "locale": "en-GI",
+    "currency": "GIP",
+    "label": "Gibraltar Pound"
+  },
+  {
+    "locale": "en-GN",
+    "currency": "GNF",
+    "label": "Guinean Franc"
+  },
+  {
+    "locale": "en-GM",
+    "currency": "GMD",
+    "label": "Gambian Dalasi"
+  },
+  {
+    "locale": "en-GT",
+    "currency": "GTQ",
+    "label": "Guatemalan Quetzal"
+  },
+  {
+    "locale": "en-GY",
+    "currency": "GYD",
+    "label": "Guyanaese Dollar"
+  },
+  {
+    "locale": "en-HK",
+    "currency": "HKD",
+    "label": "Hong Kong Dollar"
+  },
+  {
+    "locale": "en-HN",
+    "currency": "HNL",
+    "label": "Honduran Lempira"
+  },
+  {
+    "locale": "en-HT",
+    "currency": "HTG",
+    "label": "Haitian Gourde"
+  },
+  {
+    "locale": "en-HU",
+    "currency": "HUF",
+    "label": "Hungarian Forint"
+  },
+  {
+    "locale": "en-ID",
+    "currency": "IDR",
+    "label": "Indonesian Rupiah"
+  },
+  {
+    "locale": "en-IR",
+    "currency": "IRR",
+    "label": "Iranian Rial"
+  },
+  {
+    "locale": "en-IQ",
+    "currency": "IQD",
+    "label": "Iraqi Dinar"
+  },
+  {
+    "locale": "en-IS",
+    "currency": "ISK",
+    "label": "Icelandic Kr\u00f3na"
+  },
+  {
+    "locale": "en-IL",
+    "currency": "ILS",
+    "label": "Israeli New Shekel"
+  },
+  {
+    "locale": "en-JM",
+    "currency": "JMD",
+    "label": "Jamaican Dollar"
+  },
+  {
+    "locale": "en-JO",
+    "currency": "JOD",
+    "label": "Jordanian Dinar"
+  },
+  {
+    "locale": "en-JP",
+    "currency": "JPY",
+    "label": "Japanese Yen"
+  },
+  {
+    "locale": "en-KZ",
+    "currency": "KZT",
+    "label": "Kazakhstani Tenge"
+  },
+  {
+    "locale": "en-KE",
+    "currency": "KES",
+    "label": "Kenyan Shilling"
+  },
+  {
+    "locale": "en-KG",
+    "currency": "KGS",
+    "label": "Kyrgystani Som"
+  },
+  {
+    "locale": "en-KH",
+    "currency": "KHR",
+    "label": "Cambodian Riel"
+  },
+  {
+    "locale": "en-KR",
+    "currency": "KRW",
+    "label": "South Korean Won"
+  },
+  {
+    "locale": "en-KW",
+    "currency": "KWD",
+    "label": "Kuwaiti Dinar"
+  },
+  {
+    "locale": "en-LA",
+    "currency": "LAK",
+    "label": "Laotian Kip"
+  },
+  {
+    "locale": "en-LB",
+    "currency": "LBP",
+    "label": "Lebanese Pound"
+  },
+  {
+    "locale": "en-LR",
+    "currency": "LRD",
+    "label": "Liberian Dollar"
+  },
+  {
+    "locale": "en-LY",
+    "currency": "LYD",
+    "label": "Libyan Dinar"
+  },
+  {
+    "locale": "en-LK",
+    "currency": "LKR",
+    "label": "Sri Lankan Rupee"
+  },
+  {
+    "locale": "en-LS",
+    "currency": "ZAR",
+    "label": "South African Rand"
+  },
+  {
+    "locale": "en-MO",
+    "currency": "MOP",
+    "label": "Macanese Pataca"
+  },
+  {
+    "locale": "en-MD",
+    "currency": "MDL",
+    "label": "Moldovan Leu"
+  },
+  {
+    "locale": "en-MG",
+    "currency": "MGA",
+    "label": "Malagasy Ariary"
+  },
+  {
+    "locale": "en-MV",
+    "currency": "MVR",
+    "label": "Maldivian Rufiyaa"
+  },
+  {
+    "locale": "en-MX",
+    "currency": "MXN",
+    "label": "Mexican Peso"
+  },
+  {
+    "locale": "en-MK",
+    "currency": "MKD",
+    "label": "Macedonian Denar"
+  },
+  {
+    "locale": "en-MM",
+    "currency": "MMK",
+    "label": "Myanmar Kyat"
+  },
+  {
+    "locale": "en-MN",
+    "currency": "MNT",
+    "label": "Mongolian Tugrik"
+  },
+  {
+    "locale": "en-MZ",
+    "currency": "MZN",
+    "label": "Mozambican Metical"
+  },
+  {
+    "locale": "en-MR",
+    "currency": "MRU",
+    "label": "Mauritanian Ouguiya"
+  },
+  {
+    "locale": "en-MU",
+    "currency": "MUR",
+    "label": "Mauritian Rupee"
+  },
+  {
+    "locale": "en-MW",
+    "currency": "MWK",
+    "label": "Malawian Kwacha"
+  },
+  {
+    "locale": "en-MY",
+    "currency": "MYR",
+    "label": "Malaysian Ringgit"
+  },
+  {
+    "locale": "en-NC",
+    "currency": "XPF",
+    "label": "CFP Franc"
+  },
+  {
+    "locale": "en-NG",
+    "currency": "NGN",
+    "label": "Nigerian Naira"
+  },
+  {
+    "locale": "en-NI",
+    "currency": "NIO",
+    "label": "Nicaraguan C\u00f3rdoba"
+  },
+  {
+    "locale": "en-NP",
+    "currency": "NPR",
+    "label": "Nepalese Rupee"
+  },
+  {
+    "locale": "en-OM",
+    "currency": "OMR",
+    "label": "Omani Rial"
+  },
+  {
+    "locale": "en-PK",
+    "currency": "PKR",
+    "label": "Pakistani Rupee"
+  },
+  {
+    "locale": "en-PA",
+    "currency": "PAB",
+    "label": "Panamanian Balboa"
+  },
+  {
+    "locale": "en-PE",
+    "currency": "PEN",
+    "label": "Peruvian Sol"
+  },
+  {
+    "locale": "en-PH",
+    "currency": "PHP",
+    "label": "Philippine Peso"
+  },
+  {
+    "locale": "en-PG",
+    "currency": "PGK",
+    "label": "Papua New Guinean Kina"
+  },
+  {
+    "locale": "en-PL",
+    "currency": "PLN",
+    "label": "Polish Zloty"
+  },
+  {
+    "locale": "en-KP",
+    "currency": "KPW",
+    "label": "North Korean Won"
+  },
+  {
+    "locale": "en-PY",
+    "currency": "PYG",
+    "label": "Paraguayan Guarani"
+  },
+  {
+    "locale": "en-QA",
+    "currency": "QAR",
+    "label": "Qatari Riyal"
+  },
+  {
+    "locale": "en-RO",
+    "currency": "RON",
+    "label": "Romanian Leu"
+  },
+  {
+    "locale": "en-RU",
+    "currency": "RUB",
+    "label": "Russian Ruble"
+  },
+  {
+    "locale": "en-RW",
+    "currency": "RWF",
+    "label": "Rwandan Franc"
+  },
+  {
+    "locale": "en-SA",
+    "currency": "SAR",
+    "label": "Saudi Riyal"
+  },
+  {
+    "locale": "en-SD",
+    "currency": "SDG",
+    "label": "Sudanese Pound"
+  },
+  {
+    "locale": "en-SG",
+    "currency": "SGD",
+    "label": "Singapore Dollar"
+  },
+  {
+    "locale": "en-SH",
+    "currency": "SHP",
+    "label": "St. Helena Pound"
+  },
+  {
+    "locale": "en-SB",
+    "currency": "SBD",
+    "label": "Solomon Islands Dollar"
+  },
+  {
+    "locale": "en-SL",
+    "currency": "SLE",
+    "label": "Sierra Leonean Leone"
+  },
+  {
+    "locale": "en-SO",
+    "currency": "SOS",
+    "label": "Somali Shilling"
+  },
+  {
+    "locale": "en-RS",
+    "currency": "RSD",
+    "label": "Serbian Dinar"
+  },
+  {
+    "locale": "en-SS",
+    "currency": "SSP",
+    "label": "South Sudanese Pound"
+  },
+  {
+    "locale": "en-ST",
+    "currency": "STN",
+    "label": "S\u00e3o Tom\u00e9 & Pr\u00edncipe Dobra"
+  },
+  {
+    "locale": "en-SR",
+    "currency": "SRD",
+    "label": "Surinamese Dollar"
+  },
+  {
+    "locale": "en-SE",
+    "currency": "SEK",
+    "label": "Swedish Krona"
+  },
+  {
+    "locale": "en-SZ",
+    "currency": "SZL",
+    "label": "Swazi Lilangeni"
+  },
+  {
+    "locale": "en-SC",
+    "currency": "SCR",
+    "label": "Seychellois Rupee"
+  },
+  {
+    "locale": "en-SY",
+    "currency": "SYP",
+    "label": "Syrian Pound"
+  },
+  {
+    "locale": "en-TH",
+    "currency": "THB",
+    "label": "Thai Baht"
+  },
+  {
+    "locale": "en-TJ",
+    "currency": "TJS",
+    "label": "Tajikistani Somoni"
+  },
+  {
+    "locale": "en-TM",
+    "currency": "TMT",
+    "label": "Turkmenistani Manat"
+  },
+  {
+    "locale": "en-TO",
+    "currency": "TOP",
+    "label": "Tongan Pa\u02bbanga"
+  },
+  {
+    "locale": "en-TT",
+    "currency": "TTD",
+    "label": "Trinidad & Tobago Dollar"
+  },
+  {
+    "locale": "en-TN",
+    "currency": "TND",
+    "label": "Tunisian Dinar"
+  },
+  {
+    "locale": "en-TR",
+    "currency": "TRY",
+    "label": "Turkish Lira"
+  },
+  {
+    "locale": "en-TW",
+    "currency": "TWD",
+    "label": "New Taiwan Dollar"
+  },
+  {
+    "locale": "en-TZ",
+    "currency": "TZS",
+    "label": "Tanzanian Shilling"
+  },
+  {
+    "locale": "en-UG",
+    "currency": "UGX",
+    "label": "Ugandan Shilling"
+  },
+  {
+    "locale": "en-UA",
+    "currency": "UAH",
+    "label": "Ukrainian Hryvnia"
+  },
+  {
+    "locale": "en-UY",
+    "currency": "UYU",
+    "label": "Uruguayan Peso"
+  },
+  {
+    "locale": "en-UZ",
+    "currency": "UZS",
+    "label": "Uzbekistani Som"
+  },
+  {
+    "locale": "en-VE",
+    "currency": "VES",
+    "label": "Venezuelan Bol\u00edvar"
+  },
+  {
+    "locale": "en-VN",
+    "currency": "VND",
+    "label": "Vietnamese Dong"
+  },
+  {
+    "locale": "en-VU",
+    "currency": "VUV",
+    "label": "Vanuatu Vatu"
+  },
+  {
+    "locale": "en-WS",
+    "currency": "WST",
+    "label": "Samoan Tala"
+  },
+  {
+    "locale": "en-YE",
+    "currency": "YER",
+    "label": "Yemeni Rial"
+  },
+  {
+    "locale": "en-ZM",
+    "currency": "ZMW",
+    "label": "Zambian Kwacha"
+  }
+]
